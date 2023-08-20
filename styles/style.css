@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 h1, 
@@ -13,7 +13,7 @@ ul,
 ol, 
 blockquote {
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 
 body {
@@ -120,7 +120,7 @@ a {
 .intro__heading {
   display: flex;
   color:  #CCCCCC;
-  margin-bottom: 24px;  
+  margin-bottom: 24px;
 }  
 
 .intro__date {
@@ -188,7 +188,7 @@ a {
 }
 
 .card_theme_dark {
-  background-color: #343434; 
+  background-color: #343434;
 }
 
 .card__author-photo {
@@ -215,7 +215,7 @@ a {
 }
 
 .footer_menu__list {
-  display: flex; 
+  display: flex;
   list-style: none;
 }
 
