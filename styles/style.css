@@ -18,7 +18,7 @@ blockquote {
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #1e1e1e;
   font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -82,9 +82,17 @@ a {
 
 .menu__list {
   display: flex;
-  list-style: none;
-  flex-direction: column;
+  flex-direction: column;  
   gap: 13px;
+  list-style: none;
+}
+
+.menu__list-link {
+  text-decoration: none;
+}
+
+.header__menu-item_active {
+  text-decoration: underline;
 }
 
 .cover {
@@ -151,12 +159,22 @@ a {
 }
 
 .content-section__list {
-  padding-left: 20px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .content-section__list-item {
-  margin-bottom: 16px;
-  line-height: 1.38;
+  line-height: 1.35;
+}
+
+.last_content-section__list-item {
+  line-height: 1.35;
+}
+
+.content-section__list-accent {
+  font-weight: bold;
 }
 
 .how-to {
@@ -193,14 +211,14 @@ a {
 
 .card__author-photo {
   height: 100px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .card__author-name {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .card__title {
